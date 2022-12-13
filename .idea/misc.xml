@@ -7,6 +7,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Workspace/JoelHelper/feature_assets_calculator/src/main/res/layout/activity_add_asset.xml" value="0.1574074074074074" />
+        <entry key="..\:/Workspace/JoelHelper/feature_assets_calculator/src/main/res/layout/activity_assets.xml" value="0.1574074074074074" />
+        <entry key="..\:/Workspace/JoelHelper/feature_assets_calculator/src/main/res/layout/item_assets_list.xml" value="0.1574074074074074" />
         <entry key="..\:/Workspace/JoelHelper/feature_estate/src/main/res/layout/item_debt_list.xml" value="0.1574074074074074" />
         <entry key="..\:/Workspace/JoelHelper/feature_estate/src/main/res/layout/item_estate_list.xml" value="0.1574074074074074" />
         <entry key="..\:/Workspace/JoelHelper/schedule/src/main/res/layout/activity_schedule.xml" value="0.17962962962962964" />

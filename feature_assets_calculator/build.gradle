@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id "kotlin-kapt"
+}
+apply from: '../base_android.gradle'
+
+android {
+    defaultConfig {
+        applicationId "com.joelzhu.helper.estate"
+
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':base')
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$project.navigationKtxVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$project.navigationKtxVersion"
+
+    // Room
+    implementation "androidx.room:room-runtime:$project.roomKtxVersion"
+    implementation "androidx.room:room-ktx:$project.roomKtxVersion"
+    kapt "androidx.room:room-compiler:$project.roomKtxVersion"
+
+    implementation "androidx.constraintlayout:constraintlayout:$project.constraintlayoutVersion"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$project.swiperefreshlayoutVersion"
+}

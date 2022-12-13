@@ -22,7 +22,7 @@ abstract class BaseActivity<DataBinding : ViewBinding?, VM : ViewModel?> : AppCo
 
     protected var viewModel: VM? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    final override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val types = actualTypes
         if (types == null) {

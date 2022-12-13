@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">资金计算器</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="add_asset_failed">更新失败</string>
+
+    <string name="real_asset">现有资金</string>
+</resources>

@@ -22,6 +22,7 @@ android {
 }
 
 dependencies {
+    // Lifecycle
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$project.jetpacKtxVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$project.jetpacKtxVersion"
 }

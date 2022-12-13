@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joelzhu.helper.acalculator">
+
+    <application
+        android:name=".AssetsCalculatorApplication"
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JoelHelper">
+
+        <activity
+            android:name=".ui.activities.AssetsListActivity"
+            android:theme="@style/Theme.JoelHelper.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.activities.AddAssetActivity"
+            android:theme="@style/Theme.JoelHelper.NoActionBar" />
+    </application>
+</manifest>

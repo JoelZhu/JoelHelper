@@ -10,4 +10,5 @@ rootProject.name = "JoelHelper"
 include ':app'
 include ':base'
 
-include ':feature_estate'
+include ':feature_assets_calculator'
+include ':feature_real_estate'
